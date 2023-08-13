@@ -1,15 +1,12 @@
-// Including necessary header files
 #include <stdio.h>
-#include <conio.h>
 
-// Main function
 int main() {
     // Variable declarations
     int a = 10;
     int b = 20, c = 30, d = 40;
 
     // Printing the initial message
-    printf("This is\n %d + %d = %d ", a, b, a + b);
+    printf("This is\n%d + %d = %d\n", a, b, a + b);
 
     // Loop to iterate through values
     for (int i = 0; i < d - 30; i++) {
@@ -22,7 +19,7 @@ int main() {
                 printf("This is 8.\n");
             }
         }
-        
+
         // Printing "ok" at each iteration
         printf("ok\n");
     }
