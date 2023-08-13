@@ -10,7 +10,7 @@ printf("Enter number rows and columns : ");
 scanf("%d %d", &rows1, &cols1);
 for(i=0;i<rows1;i++);
     for(j=0;j<cols1;j++){
-    print("Enter [%d %d] value : ", i , j );
+    printf("Enter [%d %d] value : ", i , j );
     scanf("%d", Matrix1[i][j]);
 }}
  
@@ -41,7 +41,7 @@ for(i=0;i<rows2;i++){
     }
 
     rows3 = Cols1;
-    cols3 = rows1:
+    cols3 = rows1;
     for(i=0;i<Rows3;i++){
     for(j=0;j<cols3;j++)
 Matrix3[i][j] = Matrix1[j][i];
@@ -57,7 +57,7 @@ Printf("\n"):
     
     if(cols1!=rows2)
         pintf("\nMatrix1 and Matrix2 connot multiply\n");
-    else {   
+    else if {   
         rows4 = rows1;
     cols4 = cols2;
     for(i=0;i<rows4;i++){
